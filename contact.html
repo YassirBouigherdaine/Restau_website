@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Restaurant website">
+    <meta name="author" content="Yassir Bouigherdaine">
+    <title>Rich Table</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="myScript.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>RICH TABLE</h1>
+        <p>YOU DON'T NEED A SILVER FORK</p>
+        <p>TO EAT GOOD FOOD</p>
+    </div>
+    <div class="myTopNav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="about.html">About</a>
+        <div class="search">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <section class="myContSection">
+        <h1>Contact us</h1>
+        <button id="ContButton" onclick="displayContForm()">Contact us</button>
+        <p>If you want to reserve a table in our restaurant or if you have any questions a member of staff will always be happy to help.</p>
+        <p>Feel free to contact us by telephone or email and will be sure to get back to you as soon as possible.</p>
+    </section>
+    <div id="Contcontainer">
+        <div id="row">
+            <div id="column">
+                <form action="/action_page.php" id="myForm">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Your subject..." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>HAVE YOU TRIED OUR FOOD.</h3>
+        <h3>YET! VISIT US TODAY</h3>
+        <div class="myFooter">
+            <div class="myFoot">
+                <h4>&#9993; Email</h4>
+                <p> Rich-table@gmail.com</p>
+            </div>
+            <div class="myFoot">
+                <h4>&#128222; Tel</h4>
+                <p> 95 (61) 346613895 </p>
+            </div>
+            <div class="myFoot">
+                <h4>&#127975; Fax</h4>
+                <p>99 (61) 3468154</p>
+            </div>
+            <div class="myFoot">
+                <h4>&#128336; Opening time</h4>
+                <p>8am - 10pm</p>
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2021 RICH TABLE Group</p>
+    </footer>
+</body>
+</html>

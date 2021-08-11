@@ -1,0 +1,350 @@
+﻿body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color:gainsboro
+}
+
+
+.container {
+    padding: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    min-height: 200px;
+    background: url('img/resort.jpg')  no-repeat -200px -520px;
+    opacity: 0.9;
+}
+    .container h1{
+        font-size: 40px;
+    }
+    .container p {
+        font-size: 20px;
+    }
+
+
+.myTopNav {
+    overflow: hidden;
+    background-color: #333;
+}
+    .myTopNav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+.myTopNav .search {
+    float: right;
+}
+    .myTopNav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    .myTopNav .search button {
+        float: right;
+        padding: 6px 12px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color: darkcyan;
+        font-size: 17px;
+        border: none;
+        color: white;
+    }
+        .myTopNav .search button:hover {
+            background: darkslategrey;
+            color: white;
+        }
+
+    .myTopNav a:hover {
+        background-color: darkslategrey;
+        color: white;
+    }
+
+
+.active {
+    background: darkcyan;
+}
+
+
+.boxes{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:330px;
+    
+}
+    .boxes h4 {
+        color: darkslategrey;
+    }
+
+.myBox {
+    padding: 20px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+    .myBox img {
+        width: 30%;
+        border-radius: 50%;
+    }
+    .myP{
+        display:none;
+    }
+
+
+#reserv {
+    text-align:center;
+    padding-bottom:30px;
+}
+
+
+.mySlide img {
+    width: 30%;
+    height: 400px;
+    border-radius: 50%;
+    float:left;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:20px;
+    opacity:0.7;
+}
+.slideShow {
+    text-align: center;
+    border-top:groove;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top:50px;
+}
+
+
+.myButton {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color:tomato;
+    border: none;
+    border-radius: 15px;
+  
+}
+    .myButton:hover {
+        background-color: darkcyan;
+        color: white;
+    }
+    .myButton:active {
+        background-color: darkcyan;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+
+.myServSection {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 108px;
+}
+.myServSection2 {
+    text-align: center;
+    padding-bottom: 180px;
+}
+.myServSec{
+    float: left;
+    padding: 5px 96px 20px 80px;
+    width:20%;
+}
+    .myServSec h4, .myServSection h1, footer h3, footer h4, .menu h1, .menu h3{
+        color: darkslategrey;
+    }
+
+
+.myContSection{
+    padding:80px 80px 60px 90px;
+    text-align:left;
+}
+    .myContSection button{
+      float:right;
+    }
+#ContButton {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+}
+    #ContButton:hover {
+        background-color: darkcyan;
+        color: white;
+    }
+
+    #ContButton:active {
+        background-color: darkcyan;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+
+#reservContainer {
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 280px;
+    width: 60%;
+    background-color: #333;
+    display:none;
+}
+
+#Contcontainer {
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 90px;
+    width: 60%;
+    background-color: #333;
+    display: none;
+}
+#column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+#column label{
+    color:white;
+}
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#column [type=text], #column [type=date], #column [type=time], #column [type=number],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+    input[type=submit]:hover {
+        background-color: darkslategrey;
+    }
+
+
+.menu {
+    text-align: center;
+    margin-top:80px;
+    padding-bottom: 500px;
+    
+}
+.myMenu {
+    background-color: #333;
+    float: left;
+    padding: 40px 10px 60px 10px;
+    margin: 20px 20px 20px 20px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 5%;
+}
+    .myMenu img {
+        width:150px;
+        height:150px;
+        border-radius: 50%;
+    }
+.myMenu p, h2{
+    text-align:left;
+    padding-left:40px;
+}
+
+#aboutSec {
+    border:double;
+    margin: 80px 80px 150px 50px;
+   padding:10px 85px 15px 55px;
+}
+
+footer {
+        text-align: center;
+        border-top: groove;
+        margin-top: 60px;
+        padding-top: 40px;
+}
+.myFoot{
+    float:left;
+    padding: 30px 70px 30px 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+
+   ***** FORM *******
+    @media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+}*/
+
+
+

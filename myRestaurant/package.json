@@ -1,0 +1,9 @@
+{
+  "name": "my-restaurant",
+  "version": "0.0.0",
+  "description": "myRestaurant",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
