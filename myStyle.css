@@ -99,7 +99,11 @@
     text-align:center;
     padding-bottom:30px;
 }
-
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
 
 .mySlide img {
     width: 30%;
@@ -264,22 +268,46 @@ input[type=submit] {
         height:150px;
         border-radius: 50%;
     }
-.myMenu p, h2{
-    text-align:left;
-    padding-left:40px;
-}
+    .myMenu p, .myMenu h2 {
+        text-align: left;
+        padding-left: 40px;
+    }
 
 #aboutSec {
-    border:double;
-    margin: 80px 80px 150px 50px;
-   padding:10px 85px 15px 55px;
+    text-align: center;
+    margin: 80px 50px 150px 100px;
+    padding: 10px 85px 15px 55px;
+    width: 65%;
+    background-color: #333;
+    height: 800px;
+    color: white;
+    border-radius:10px;
+}
+
+#myArticle {
+    width: 60%;
+    float: left;
+    text-align: left;
+    border: double;
+    border-color: white;
+    padding: 10px 10px 10px 15px;
+    margin-top:20px;
+}
+#myAside {
+    width: 30%;
+    float: right;
+    padding: 10px 10px 10px 15px;
+    text-align: left;
+    border: double;
+    border-color: white;
+    margin-top: 20px;
 }
 
 footer {
-        text-align: center;
-        border-top: groove;
-        margin-top: 60px;
-        padding-top: 40px;
+    text-align: center;
+    border-top: groove;
+    margin-top: 60px;
+    padding-top: 40px;
 }
 .myFoot{
     float:left;
@@ -289,7 +317,137 @@ footer {
 
 
 
+@media(max-width: 768px) {
+    .container h1, #reserv, .slideshow-container, .mySlide{
+        width: 100%;
+        text-align: center;
+    }
+    header .myTopNav {
+        height: 96px;
+    }
+    .myTopNav a {
+        width:56px;
+    }
 
+    .myTopNav .search {
+        width: 100%;
+    }
+        .myTopNav input[type=text] {
+            width: 86.8%;
+            height: 20px;
+           
+            margin-left: 5px;
+        }
+        .myTopNav button[type=submit] {
+            width: 8.6%;
+            height: 33px;
+            float: right;
+            margin-right: 5px;
+            
+        }
+
+    .myBox{
+        width:100%;
+      
+       padding-left:0px;
+    }
+    .slideShow img {
+        width: 300px;
+        height: 300px;
+        float: none;
+    }
+
+    .boxes h1 {
+        font-size: 22px;
+    }
+
+    #reservContainer{
+        float:none;
+        margin-left:40px;
+        width:80%;
+    }
+
+    .myServSection, .myServSection2 {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        padding-top: 0px; 
+    }
+    .myServSec {
+        width: 50%;
+        margin-left: 50px;
+        float: none;
+        padding-top:5px;
+       padding-bottom:0px;
+       margin-top:0px;
+    }
+    .menu {
+        float: none;
+        margin-left: 50px;
+        padding-bottom:0px;
+    }
+    .myMenu {
+        float: none;
+        width: 80%;
+        margin-left:10px;
+    }
+      
+.myMenu h2 {
+    padding-left: 10px;
+}
+        .myMenu p {
+            padding-left: 80px;
+        }
+
+    .myContSection {
+        text-align:center;
+        height:300px;
+    }
+    .myContSection p {
+        float: left;
+       
+    }
+    .myContSection #ContButton {
+        width:100%;
+    }
+    #myForm input[type=text], #myForm textarea, #myForm input[type=number], #myForm input[type=date],
+    #myForm input[type=time] {
+        width: 150%;
+    }
+    #myForm input[type=submit] {
+        width: 165%;
+    }
+
+    #aboutSec {
+        margin-left: 50px;
+        height: 700%;
+        text-align: center;
+        margin-top: 50px;
+        width:50%;
+    }
+     
+        article#myArticle {
+            margin:30px;
+            float: none;
+            width: 80%;
+        }
+    #myArticle h3, #myAside h3 ,.myMenu h2{
+        text-align: center;
+    }
+    aside#myAside {
+        margin: 30px;
+        float: none;
+        width: 80%;
+    }
+
+    footer .myFoot {
+        text-align: center;
+        width: 50%;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+}
 
 
 
@@ -335,6 +493,7 @@ footer {
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
+
 
 
    ***** FORM *******

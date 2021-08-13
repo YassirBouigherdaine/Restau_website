@@ -14,26 +14,28 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>RICH TABLE</h1>
-        <p>YOU DON'T NEED A SILVER FORK</p>
-        <p>TO EAT GOOD FOOD</p>
-    </div>
-    <div class="myTopNav">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html" class="active">Contact</a>
-        <a href="about.html">About</a>
-        <div class="search">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
+    <header>
+        <div class="container">
+            <h1>RICH TABLE</h1>
+            <p>YOU DON'T NEED A SILVER FORK</p>
+            <p>TO EAT GOOD FOOD</p>
         </div>
-    </div>
+        <nav class="myTopNav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="about.html">About</a>
+            <div class="search">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
     <section class="myContSection">
-        <h1>Contact us</h1>
+        <h1>CONTACT US</h1>
         <button id="ContButton" onclick="displayContForm()">Contact us</button>
         <p>If you want to reserve a table in our restaurant or if you have any questions a member of staff will always be happy to help.</p>
         <p>Feel free to contact us by telephone or email and will be sure to get back to you as soon as possible.</p>
@@ -46,6 +48,8 @@
                     <input type="text" id="fname" name="firstname" placeholder="Your name...">
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email...">
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Your subject..." style="height:170px"></textarea>
                     <input type="submit" value="Submit">
